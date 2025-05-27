@@ -1,11 +1,10 @@
 from flask import Flask, render_template, request
 import tensorflow as tf
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.metrics import AUC
+from keras.models import load_model
+from keras.preprocessing import image
+from keras.metrics import AUC
 import numpy as np
-
-from flask_mysqldb import *
+from flask_mysqldb import MySQL
 
 
 app = Flask(__name__) #Initialize the flask App
@@ -16,7 +15,6 @@ app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'root'  # Update with your MySQL root password
 app.config['MYSQL_DB'] = 'fake'#databasename
 mysql = MySQL(app)
-
 dependencies = {
     'auc_roc': AUC
 }
