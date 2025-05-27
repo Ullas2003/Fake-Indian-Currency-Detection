@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to left,#002c24,#badad7);
+}
+#nav{
+    width:100vw;
+    height: 10vh;
+    background-color: rgba(240, 229, 229, 0.329);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+#nav h1{
+    position: relative;
+    left: 3%;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.773);
+}
+#nav p{
+    position:relative;
+    left: 50%;
+    justify-content:space-evenly;
+    width: 10vw;
+    font-size: 18px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #img{
+        position: absolute;
+        top: 45%;
+        left: 6%;
+    }
+    #img h2{
+        position: absolute;
+        top: 100%;
+        left: 40%;
+        color: #011c17;
+        font-size: 35px;
+        font-family: "Acme", sans-serif;
+
+    }
+    #txt h1{
+        font-family: "Exo 2", sans-serif;
+        color: #0e1f1298;
+        position: absolute;
+        top: 19%;
+        left: 5%;
+        font-size: 40px;
+    }
+    #img i{
+        color: rgba(255, 255, 255, 0.662);
+        font-family: "Space Grotesk", sans-serif;
+    }

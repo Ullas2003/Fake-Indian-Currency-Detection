@@ -1,0 +1,93 @@
+body{
+    background-image:linear-gradient(to right,#3E5245,#b1b1b1);
+}
+#nav{
+    width:100vw;
+    height: 10vh;
+    background-color: rgba(240, 229, 229, 0.329);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+#nav h1{
+    position: relative;
+    left: 3%;
+}
+#nav p{
+    position:relative;
+    left: 45%;
+    justify-content:space-evenly;
+    width: 10vw;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+    #txt{
+        font-size: 30px;
+    }
+    #cal{
+        position: relative;
+        left: 12%;
+        font-size: 15px;
+        background-color: rgba(255, 255, 255, 0.127);
+        width: 30vw;
+        border-radius: 10px;
+        font-family: "Ubuntu", sans-serif;
+        color: rgba(0, 0, 0, 0.581);
+        top: 95px;
+        
+    }
+    #cal p{
+        position: relative;
+        left: 39%;
+        bottom: 63.5px;
+ }
+ #cal h1{
+    position: relative;
+    left: 21%;
+    top: 30px;
+ }
+ #img{
+    position: absolute;
+    width: 30vw;
+    height: 60vh;
+    background-image: url(download.png);
+    background-size: 28vw 50vh;
+     background-repeat: no-repeat;
+    left: 55%;
+    top: 38%;
+    z-index: 1;
+ }
+ #img1{
+    position: absolute;
+  background-color:rgba(255, 255, 255, 0.127);
+    left: 54.5%;
+    top: 28%;
+    width: 29vw;
+    height: 66vh;
+    border-radius: 10px;
+ }
+ #txt{
+    position: absolute;
+    top: 18%;
+    left: 17%;
+    font-size: 35px;
+    font-family: "Kanit", sans-serif;
+    color: rgba(255, 255, 255, 0.549);
+ }
+ #txt1{
+    position: absolute;
+    top: 18%;
+    left: 61%;
+    font-size: 35px;
+    font-family: "Kanit", sans-serif;
+    color: rgba(255, 255, 255, 0.56);
+ }
+ i{
+    color: white;
+ }
+ 

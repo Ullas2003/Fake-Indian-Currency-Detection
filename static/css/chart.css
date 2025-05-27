@@ -1,0 +1,45 @@
+body{
+    background-image:linear-gradient(to right,#49646e,#b1b1b1);
+}
+#nav{
+    width:100vw;
+    height: 10vh;
+    background-color: rgba(240, 229, 229, 0.329);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+#nav h1{
+    position: relative;
+    left: 3%;
+}
+#nav p{
+    position:relative;
+    left: 55%;
+    justify-content:space-evenly;
+    width: 10vw;
+    }
+    #Currency{
+        position: absolute;
+        width: 40vw;
+        height: 56%;
+        background-color: #000000bc;
+        left: 30%;
+        top: 30%;
+        border-radius: 10px;
+        box-shadow: 6px 6px 30px 13px rgba(12, 12, 12, 0.541) ;
+         }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+
+    }
+    #piechart_3d{
+        background-color: transparent;
+        position: absolute;
+        left: 37%;
+        top: 37%;
+    }

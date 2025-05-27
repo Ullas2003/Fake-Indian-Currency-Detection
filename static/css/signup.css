@@ -1,0 +1,177 @@
+body{
+    background-image: linear-gradient(to left,#2B5E0F,#DBE7CF);
+    overflow-x: hidden;
+}
+
+#form{
+    width: 50vw;
+    height: 80vh;
+    border-radius: 13px;
+    background-color: rgba(255, 255, 255, 0.351);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 15%;
+    display:grid;
+    left:24% ;
+    box-shadow: 6px 6px 30px 1px rgba(157, 156, 156, 0.703) ;
+}
+#form h1{
+    color: #506938;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    left: 19%;
+    font-size: 50px;
+    bottom: 10px;
+}
+#un{
+    width: 20vw;
+    height: 6vh;
+    color: #2B5E0F;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 30px;
+    outline: none;
+    
+}
+    #pass-icon{
+        position: absolute;
+        left: 65%;
+        top: 61%;
+        width: 2vw;
+        height: 3.5vh;
+        background-image: url(eyeclose.png);
+        background-size:2vw 2vh;
+        background-repeat: no-repeat;
+        }
+
+#em{
+    width: 20vw;
+    height: 6vh;
+    color: #2B5E0F;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 30px;
+    outline: none;
+}
+
+
+#password{
+    width: 20vw;
+    height: 6vh;
+    color:#2B5E0F;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 30px;
+    outline: none;
+    }
+#cpw{
+    width: 20vw;
+    height: 6vh;
+    color: #2B5E0F;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 30px;
+    outline: none;
+}
+#fb{
+    width: 10vw;
+    height: 6vh;
+    border-radius: 100px;
+    border-color: transparent;
+    background-color: #64944aeb;
+    font-size: 20px;
+    transition: all linear 0.2s;
+    position: relative;
+    left: 18%;
+    
+}
+#fb:hover{
+    background-color:rgba(255, 255, 255, 0.413);
+    transform: translateY(-3px);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: #2B5E0F;
+}
+#Currency{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(su1.png);
+    position: fixed;
+    background-size:28vw 60vh ;
+    background-repeat: no-repeat;
+    left: 60%;
+    top: 42%;
+     }
+#Currency h1{
+    position: relative;
+    right: 48%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 46px;
+    top: 32px;
+    color: #506938;
+}
+#ptag{
+    position: relative;
+    color: #2b5e0fc1;
+    font-size: 20px;
+    right: 10%;
+}
+#cb1{
+    position:absolute;
+    left: 54%;
+    bottom: 13.5%;
+    font-size: 18px;
+}
+#hr1{
+    position: relative;
+    bottom: 28px;
+    border-color: #2b5e0f;
+}
+#hr2{
+    position: relative;
+    bottom: 28px;
+    border-color: #2b5e0f;
+}
+#hr3{
+    position: relative;
+    bottom: 28px;
+    border-color: #2b5e0f;
+}
+#hr4{
+    position: relative;
+    bottom: 28px;
+    border-color: #2b5e0f;
+}
+   #png1{
+    top: 1%;
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    background-image: url(icon.png);
+    background-size: 9vw 19vh;
+    background-repeat: no-repeat;
+    left: 44%;
+    z-index: 3;
+   }
+body h1{
+    position: relative;
+    font-size: 43px;
+    left: 2%;
+    color: #2b5e0f3e;
+    bottom:  10px;
+    font-family: "Edu TAS Beginner", cursive;
+}
+#fb a{
+    color: white;
+}
+#fb a:hover{
+    color: #2B5E0F;
+}
+
+
+ 

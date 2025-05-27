@@ -1,0 +1,8 @@
+numpy==1.21.0
+Pillow
+Keras==2.9.0
+Flask==2.2.2
+werkzeug==2.2.2
+tensorflow==2.9.0
+protobuf==3.20
+

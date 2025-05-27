@@ -1,0 +1,123 @@
+body{
+    background-image:linear-gradient(to left,#004548d2,#b6c1ab) ;
+    overflow-x: hidden;
+}
+#shape{
+    clip-path: circle(70.7% at 100% 50%);
+    background-color:#324b3386;
+    height: 100vh;
+    width: 45%;
+    position: fixed;
+    right: 0;
+    bottom: 1px;
+    
+}
+#nav{
+    width: 80vw;
+    height: 8vh;
+    background-color: #060d06a4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 9%;
+    border-radius: 50px;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    color: #ABBAAC;
+    font-size: 17px;
+}
+#nav h1{
+    color: #F1F4F1;
+    font-family: "Poppins", sans-serif;
+}
+#img1{
+    position: fixed;
+    height: 37vh;
+    width: 24vw;
+    /* background-color: #77937800; */
+    left: 6%;
+    border-radius: px;
+    background-image: url(currency.png);
+    background-size:24vw 36vh ;
+    background-repeat: no-repeat;
+    top: 5%;
+    /* box-shadow: 6px 6px 30px 1px#203422; */
+    transition: all linear 2s;
+}
+#img2{
+    position: fixed;
+    height:92vh;
+    width: 100vw;
+    left: 70%;
+    /* background-color:#7793782f ; */
+    border-radius: 10px;
+    background-image: url(currency.png);
+    background-size:42vw 91vh ;
+    background-repeat: no-repeat;
+    bottom: 1px;
+    /* box-shadow: 6px 6px 30px 1px#203422; */
+    transition: all linear 2s;
+
+}
+#mimg{
+    position: absolute;
+    top: 85%;
+    display: flex;
+    z-index: 1;
+}
+#txt{
+    position: fixed;
+    top: 25%;
+    width: 60vw;
+    height: 60vh;
+    background-color: #a1bba153;
+    left: 15%;
+    border-radius: 20px;
+    box-shadow: 6px 6px 30px 1px#203422;
+    z-index: 4;
+}
+#txt h1{
+     position: relative;
+     left: 5%;
+     color: #324B33;
+     font-size: 28px;
+     top: 8%;
+     font-family: "Roboto Mono", monospace;
+}
+#txt h2{
+    position: relative;
+    left: 40%;
+    font-size: 48px;
+    color: #C5BE8D;
+    top: 10%;
+    font-family: "Roboto Mono", monospace;
+}
+#file{
+    position: relative;
+    left: 35%;
+    top: 20%;
+    font-size: 20px;
+    border-color: transparent;
+}
+#submit{
+    width: 8vw;
+    height: 5vh;
+    position: relative;
+    left: 1%;
+    top:40%;
+    font-size:20px ;
+    border-radius:3px ;
+    background-color:#386e3c;
+    border-color: transparent;
+    transition: all linear 0.2s;
+    color: white;
+}
+#submit:hover{
+    background-color:lightgray;
+    transform: translateY(-5px);
+    color: black;
+}
+
